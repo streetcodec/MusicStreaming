@@ -16,7 +16,7 @@ if not os.path.exists(AUDIO_FOLDER):
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://localhost:3000",
-                   "https://musicstreaming.onrender.com"],  # React app's address
+                   "https://music-streaming-nine.vercel.app/"],  # React app's address
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
